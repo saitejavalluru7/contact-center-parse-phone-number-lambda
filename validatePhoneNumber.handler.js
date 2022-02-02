@@ -1,3 +1,5 @@
+//this handler is directly written as index file on aws
+
 const pinClient = require('./pinClient')
 const { PhoneNumberValidateCommand } = require('@aws-sdk/client-pinpoint')
 const { Pinpoint } = require('aws-sdk')
